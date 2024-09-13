@@ -6,21 +6,50 @@ Lógica de programação
 - POO
 - estruturas de dados
 
-GIT e GITHUB
+GIT e GITHUB  (GIT é instalado e GITHUB é armazenado na nuvem)
 Comandos básicos do git:
-git config --global user.name "Seu nome"
+git config --global user.name "Seu nome" 
 git config --global user.email "seuemail@email.com"
 git clone url_do_repositório (clonar um repositório)
+git status (verificar o status do repositório local)
 git add . (adiciona ao repositório local)
 git commit -m "tutorial" (documentar as alterações)
 git push (enviar ao repositório GitHub)
-
+git pull (receber, sincronizar as informações do repositório) no PC
 
 Gerar token GitHub
 1) Settings
 2) Developer Settings
 3) Token classic
 4) Gerar o token selecionando tudo, guardar o token
+___________________________________________________________________________________
+12/09 > Boas práticas na programação
+1 - Cabeçalho de documentação 
+/** 
+     Exemplos: Nomes dos projetos ou descrições de classe ou função
+     @author Wellington R. Cruz
+     @version 1.0
+/*
+
+ Node > É uma plataforma que permite a execução do JavaScript fora do navegador de internet (browser)
+https://nodejs.org/pt  (Sempre usar a versão LTS Longo termo de serviço)
+
+Comando básicos:
+node -v (versão do node) (Ele aumenta as funcionalidade no JavaScript)
+
+Gerenciador de pacotes para o node (acrescenta soluções, biblioteca)
+Obs: NPM está relacionado a pasta do projeto, ou seja, os pacotes são instalados na raiz do projeto e não no sistema operacional
+Npn -v  (versão do npm)
+
+Npm LS (listar pacotes instalados)
+
+Npn init (iniciar um novo projeto Java Script) ex: gera um arquivo aonde temos um novo projeto.
+
+   |____packge.json
+
+   json > (JavaScript Object Notation) = JavaScript orientado a objetos.
+
+
 
 
 
