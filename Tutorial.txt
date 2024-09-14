@@ -31,6 +31,26 @@ ________________________________________________________________________________
      @version 1.0
 /*
 
+2 - Nomes de arquivos, variáveis, funções, classes, etc
+Regras (clean code):
+- Declarar nomes que tenham relação com problema
+- Não usar espaço, "ç" , acentos e caracteres especais para declaração de nomes (erros internos no programa)
+- Só classes iniciam com letras maiúscula
+- Não iniciar um nome com número 
+- Quando for declarar dois nomes usar a técnica do camelo conhecido como:
+ (camel case) - Usar uma letra maiúscula na segunda palavra
+ Exemplo:
+ nomecliente -> nomeCliente
+________________________________________________________________________________________________________________
+Comandos básicos do MS-DOS:
+cls -> limpar a telaa
+dir -> listar arquivos e diretórios
+cd nome _diretório -> entrar no diretório
+cd .. -> voltar para o diretório anteriror
+
+
+
+
  Node > É uma plataforma que permite a execução do JavaScript fora do navegador de internet (browser)
 https://nodejs.org/pt  (Sempre usar a versão LTS Longo termo de serviço)
 
@@ -48,13 +68,41 @@ Npn init (iniciar um novo projeto Java Script) ex: gera um arquivo aonde temos u
    |____packge.json
 
    json > (JavaScript Object Notation) = JavaScript orientado a objetos.
+________________________________________________________________________________________________________________
+
+13/09 
+Variáveis e constante:
+
+Uma variável é um espaço na memória do computador onde armazenamos dados que podem ser utilizados e modificados durante a execução de um programa. O nome "variável" vem do fato de que o valor armazenado pode variar ao longo do tempo, conforme o programa roda.
+
+Por que usar variáveis?
+Para guardar informações que você vai precisar mais tarde.
+Para realizar cálculos ou tomar decisões baseadas em diferentes valores.
+
+Uma constante é como uma variável, mas com uma diferença importante: uma vez que você define o valor de uma constante, ele não pode ser alterado durante a execução do programa.
+
+Por que usar constantes?
+Segurança: Se você sabe que um valor não deve ser alterado em seu programa, usar uma constante evita erros.
+Legibilidade: Quando você usa uma constante, deixa claro para quem está lendo o código que aquele valor é fixo e importante.
+
+Boas práticas: Em muitos casos, é recomendado usar constantes sempre que possível para valores que não precisam mudar, facilitando a manutenção do código.
+
+As duas primeiras linhas é para limpar a memória, logo após, executar.
 
 
+Nas linguagens de programção as variáveis são tipadas ou dinamicamente tipadas
+
+Existem 3 tipos de variáveis:
+String -> Armazena caracteres e números
+Number -> Armazena números inteiros e não inteiros
+Boolean -> true | false
 
 
+________________________________________________________________________________________________________________
 
-
-
-
-
-
+Comandos JavaScript (Sintaxe = forma que você escreve)
+console.log() -> escrever no console
+console.clear -> limpar a tela do console
+const -> criar (declarar) uma vconstante
+let -> criar (declarar) uma variável
+typeof () -> verificar o tipo de varivável
