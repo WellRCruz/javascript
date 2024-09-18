@@ -79,7 +79,8 @@ Por que usar variáveis?
 Para guardar informações que você vai precisar mais tarde.
 Para realizar cálculos ou tomar decisões baseadas em diferentes valores.
 
-Uma constante é como uma variável, mas com uma diferença importante: uma vez que você define o valor de uma constante, ele não pode ser alterado durante a execução do programa.
+Uma constante é como uma variável, mas com uma diferença importante: uma vez que você define o valor de uma constante, 
+ele não pode ser alterado durante a execução do programa.
 
 Por que usar constantes?
 Segurança: Se você sabe que um valor não deve ser alterado em seu programa, usar uma constante evita erros.
@@ -89,7 +90,6 @@ Boas práticas: Em muitos casos, é recomendado usar constantes sempre que poss�
 
 As duas primeiras linhas é para limpar a memória, logo após, executar.
 
-
 Nas linguagens de programção as variáveis são tipadas ou dinamicamente tipadas
 
 Existem 3 tipos de variáveis:
@@ -97,6 +97,8 @@ String -> Armazena caracteres e números
 Number -> Armazena números inteiros e não inteiros
 Boolean -> true | false
 
+ATENÇÃO: No JS (JavaScript) uma variável pode ser criada usando let ou var
+Var (Obsoleto e inseguro), usar sempre o let
 
 ________________________________________________________________________________________________________________
 
