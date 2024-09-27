@@ -61,9 +61,12 @@ Gerenciador de pacotes para o node (acrescenta soluções, biblioteca)
 Obs: NPM está relacionado a pasta do projeto, ou seja, os pacotes são instalados na raiz do projeto e não no sistema operacional
 Npn -v  (versão do npm)
 
-Npm LS (listar pacotes instalados)
+npm LS (listar pacotes instalados)
 
-Npn init (iniciar um novo projeto Java Script) ex: gera um arquivo aonde temos um novo projeto.
+npn init (iniciar um novo projeto Java Script) ex: gera um arquivo aonde temos um novo projeto.
+
+npm i nome_do_pacote (instalar um novo pacote)
+npm r nome_do_pacote (remover um pacote)
 
    |____packge.json
 
@@ -107,4 +110,4 @@ console.log() -> escrever no console
 console.clear -> limpar a tela do console
 const -> criar (declarar) uma vconstante
 let -> criar (declarar) uma variável
-typeof () -> verificar o tipo de varivável
+typeof() -> verificar o tipo de varivável
