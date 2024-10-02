@@ -19,8 +19,7 @@
 
 //saída
 *tempoDaViagem
-
-* @author Wellington R. Cruz
+e Vitor Assis
  */
 
 // importar a biblioteca read-linesync

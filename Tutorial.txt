@@ -111,3 +111,45 @@ console.clear -> limpar a tela do console
 const -> criar (declarar) uma vconstante
 let -> criar (declarar) uma variável
 typeof() -> verificar o tipo de varivável
+_________________________________________________________________________________________________________________
+
+Atividades: Lista de exercicios
+16) Cálculo da porcentagem de um valor:
+Desenvolva um programa que calcule uma porcentagem de um valor, dado o valor total e o percentual.
+
+Regra de 3:
+
+10% de 200 = 20
+
+200 ------ 100%
+valor ----  10%
+
+valor x 100 = 200 x 10
+
+         200 x 10       2000
+valor = ___________ =  ______ = 20
+            100          100
+
+
+x% de y = valor
+
+Y --------- 100%
+valor ----   X
+
+valor x 100 = Y x X
+
+         Y x X    
+valor = ________ 
+          100    
+
+// variáveis
+x, y, valor
+
+// entrada
+x, y
+
+// processamento
+valor = (x * y) / 100
+
+// saída
+valor
