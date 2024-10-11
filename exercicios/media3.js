@@ -5,11 +5,12 @@
 
 // importar a biblioteca read-linesync
 const input = require('readline-sync')
+const colors = require('colors')  // biblioteca de cores
 
 // variáveis
 let num1, num2, num3, media
 
-console.clear ()
+console.clear()
 console.log("calculo da média aritmética de 3 números")
 
 // entrada 
@@ -23,3 +24,9 @@ media = (num1 + num2 + num3) / 3
 
 // saída
 console.log(`Média: ${media.toFixed(1)}`)
+
+if (media >= 5) {
+    console.log("Aprovado > 5".blue)   //cores
+} else {
+    console.log("Reprovado < 5".red)   //cores
+}
