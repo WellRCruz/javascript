@@ -170,3 +170,18 @@ if (condição) {
    Observações:
    1) Uma condição nunca pode ser verdadeira e falsa simultaneamente.
    2) No uso do if-else sempre uma das condições será processada.
+
+   switch (uso de variável numérica (número inteiro))
+
+   switch (variável) {
+      case 1:
+         // código caso o valor da variável seja 1
+      case 2:  
+         // código caso o valor da variável seja 2
+         break
+      default:
+         // opcional, o código será executado se nenhum caso for definido
+         break
+   }
+
+   "Estrtura condicionais, if e else, switch e case, random numbers"
