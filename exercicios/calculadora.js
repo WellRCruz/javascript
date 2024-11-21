@@ -5,8 +5,12 @@
 
 const input = require ('readline-sync')
 
-let a, b, opcao
+let a, b, opcao, novoCalculo
 
+// Deseja realizar outro calculo?
+do {
+
+// Limpar tela    
 console.clear()
 
 console.log(" _____     _         _       _             ")
@@ -51,6 +55,9 @@ opcao = Number(input.question("Digite a opcao desejada: "))
             console.log("opção inválida")
             break
     }
+    novoCalculo = input.question("Deseja jogar novamente? s/n              ")
+    
+} while (novoCalculo === 's');
 
 // Explicação professor: Funções com parâmetros (não atribuídas) podem ser criadas em qualquer lugar
 // Lógica para determinar o cálculo, resultado das operações
@@ -72,8 +79,5 @@ function dividir(a,b) {
 }
 
 function porcentagem (a,b) {
-    return console.log(`A porcentagem de ${a}% de ${b} = ${a * b }`)
+    return console.log(`A porcentagem de ${a}% de ${b} = ${a * b / 100}`)
 }
-
-//opcao = input.question("Deseja jogar novmente(s/n") // a variavel "opcao" recebe um caracter 
-//} while (opcao === 's')
