@@ -1,6 +1,6 @@
 /**
  * 
- * @author Vitor de Assis
+ * @author Wellington R. Cruz
  */
 
 console.clear()

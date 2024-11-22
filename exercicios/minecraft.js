@@ -1,7 +1,7 @@
 /**
  * Minecraft - Fundamentos da programação orientada a objetos
  * Abstração, Herança, e polimorfismo
- * @author Vitor de Assis
+ * @author Wellington R. Cruz
  */
 
 console.clear()

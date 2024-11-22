@@ -1,6 +1,6 @@
 /**
  * Atividade PROGRAMAÇÃO ORIENTADA A OBJETOS - POO
- * @author Vitor de Assis
+ * @author Wellington R. Cruz
  */
 
 // Limpar tela

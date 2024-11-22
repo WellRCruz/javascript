@@ -10,7 +10,7 @@ const input = require('readline-sync')
 console.clear()
 
 // Variáveis
-let jogador, computador
+let jogador, computador , jogarNovamente
 
 do {
     // Cabeçalho
@@ -63,6 +63,6 @@ do {
         console.log("Computador VENCEU")
     }
 
-} while ();
+    jogarNovamente = input.question("Deseja jogar novamente? s/n              ")
 
-
+} while (jogarNovamente === 's');
